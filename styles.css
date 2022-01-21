@@ -1,0 +1,134 @@
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	/*display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	animation: body 8s;*/
+	position: relative;
+	background: black;
+	
+	overflow-y: hidden;
+}
+
+
+.homeContainer{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+
+.homeContainer .aside{
+
+   margin-top: 120px;
+	flex-wrap: wrap;
+	flex-basis: 30%
+}
+
+.homeContainer .aside p {
+	word-wrap: break-word;
+    
+}
+
+.homeContainer .aside img {
+	width: 250px;
+	 animation: imgglow 2s ease-in-out infinite alternate;
+}
+
+.homeContainer .aside h3{
+	width: 100%;
+    margin-bottom: 5%;
+    padding: 5%;
+    font-size: 50px;
+    z-index: 20;
+      color: #dbdbdb;
+    -ms-grid-row-align: center;
+    align-self: center;
+    width: 30%;
+    margin: 0 auto;
+    font-size: 60px;
+    -ms-grid-column-align: bottom;
+    justify-self: bottom;
+    font-family: "Fraunces",serif;
+    animation: textglow 2s ease-in-out infinite alternate;
+
+}
+.homeContainer .aside h3:hover{
+	opacity: 0.5
+}
+
+.homeContainer .aside img:hover{
+   width: 250px;
+}
+
+
+
+.tapInButton{
+	width: 50px;
+	/*position: absolute;*/
+	position: fixed;
+	top: 80%;
+	left: 50%;
+	background: white;
+	padding: 20px;
+	border-radius: 20px 10px 
+	
+}
+
+.tapInButton a{
+
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	text-decoration:none;
+	color:#a8c959;
+    font-family: "Poppins",serif;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*animation*/
+@keyframes textglow {
+    from {
+      text-shadow: 0 0 10px #2d9da9; 
+    }
+    to {
+      text-shadow: 0 0 40px #a8c959, 0 0 10px #a8c959;
+    }
+  }
+
+  @keyframes imgglow {
+    from {
+      width: 150px;
+    }
+    to {
+      width: 300px;
+    }
+  }
+
+/*/*@keyframes body {
+  0%   {background-color:#020302}
+  25%  {background-color:#0f0f0f}
+  50%  {background: #1e1f1e}
+  75%  {background: #393b39}
+  100% {background: #393b39}
+}
+*/
