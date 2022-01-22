@@ -151,13 +151,10 @@ body{
 
 .africaCountries{
 	background-color: #555;
-
-	/*max-height: 180px;*/
-
 }
 
 .africaCountries .title{
-	/*align-content: center;*/
+	padding-top: 20px
 }
 
 .africaCountries .title h1{
@@ -177,7 +174,26 @@ body{
        font-size: 50px;
        text-align: center;
  }
+
+ .populationCountainer{
+   width: 100%;
+   background-color: black;
+   padding-top: 60px;
+ }
  
+ .populationCountainer .title{
+ 	justify-content: center;
+ 	align-content: center;
+ 	margin-bottom: 70px;
+
+ }
+
+ .populationCountainer .title h1{
+   color: #fff;
+   text-align: center;
+    font-size: 40px;
+     font-family: "Fraunces",serif;
+ }
 
 
 
